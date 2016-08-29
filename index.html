@@ -5,7 +5,9 @@ layout: default
 <div class="posts">
     {% for post in site.posts %}
     <article class="post">
-
+        <div class="when">
+            Written on {{ post.date | date: "%B %e, %Y" }}
+        </div>
         <a href="{{ site.baseurl }}{{ post.url }}">
             <div class="HeaderImage">
                 <img src="{{post.image}}"/>
@@ -13,9 +15,7 @@ layout: default
                 <h3><span>{{ post.subtitle }}</span></h3>
             </div>
         </a>
-        <div class="when">
-            Written on {{ post.date | date: "%B %e, %Y" }}
-        </div>
+
         <div class="entry">
             {{ post.excerpt }}
         </div>
