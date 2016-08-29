@@ -118,7 +118,7 @@ img {
 .date, .when {
   font-style: italic;
   color: $gray;
-  float: right;
+  float: left;
   font-size: 70%;
 }
 
@@ -245,16 +245,16 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
   border-bottom: 1px solid #eee;
   /* padding-bottom: 100px; */
-  border-top:  1px solid #eee;
+  border-top: 1px solid #eee;
   margin-bottom: 30px;
   background-color: #eeeeee;
+  padding: 10px 10px 30px;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 .post {
