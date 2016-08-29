@@ -294,6 +294,28 @@ footer {
   vertical-align: 0px !important;
 }
 
+.HeaderImage
+{
+  width: 700px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+}
+.HeaderImage img {
+  position: absolute;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+
+  /* For the following settings we set 100%, but it can be higher if needed
+  See the answer's update */
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

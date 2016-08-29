@@ -8,7 +8,10 @@ layout: default
         <div class="when">
             Written on {{ post.date | date: "%B %e, %Y" }}
         </div>
-        <img src="{{post.image}}"/>
+        <div class="HeaderImage">
+            <img src="{{post.image}}"/>
+        </div>
+
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
         <div class="entry">
