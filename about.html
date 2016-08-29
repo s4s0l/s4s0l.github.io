@@ -6,13 +6,7 @@ layout: default
 
     <h1>Contact me</h1>
 
-    {% if site.footer-links.email %}
-    <div class="contact_info">By mail:
-        <a href="mailto:{{ site.footer-links.email }}" target="_blank">
-            {{ site.footer-links.email }}
-        </a>
-    </div>
-    {% endif %}
+
     {% if site.footer-links.skype %}
     <div class="contact_info">By skype:
         <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
@@ -26,6 +20,14 @@ layout: default
                 });
             </script>
         </div>
+    </div>
+    {% endif %}
+    
+    {% if site.footer-links.email %}
+    <div class="contact_info">By mail:
+        <a href="mailto:{{ site.footer-links.email }}" target="_blank">
+            {{ site.footer-links.email }}
+        </a>
     </div>
     {% endif %}
     {% if site.footer-links.linkedin %}
