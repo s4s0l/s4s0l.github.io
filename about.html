@@ -28,6 +28,13 @@ layout: default
         </div>
     </div>
     {% endif %}
+    {% if site.footer-links.linkedin %}
+    <div class="contact_info">On LinkedIn:
+        <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" target="_blank">
+            https://www.linkedin.com/in/{{ site.footer-links.linkedin }}
+        </a>
+    </div>
+    {% endif %}
     
     <h1>Follow me</h1>
     
@@ -55,7 +62,7 @@ layout: default
         </div>
     {% endif %}
     {% if site.footer-links.github %}
-        <div class="contact_info">On github: 
+        <div class="contact_info">On GitHub: 
             <a href="https://github.com/{{ site.footer-links.github }}" target="_blank">
             https://github.com/{{ site.footer-links.github }}
             </a>
@@ -68,13 +75,7 @@ layout: default
             </a>
         </div>
     {% endif %}
-    {% if site.footer-links.linkedin %}
-        <div class="contact_info">Linked In: 
-            <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" target="_blank">
-            https://www.linkedin.com/in/{{ site.footer-links.linkedin }}
-            </a>
-        </div>
-    {% endif %}
+    
     {% if site.footer-links.pinterest %}
         <div class="contact_info">On Pinterest: 
             <a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}" target="_blank">
