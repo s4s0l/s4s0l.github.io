@@ -316,14 +316,14 @@ footer {
   bottom: -100%;
 }
 
-.HeaderImage h2 {
+.HeaderImage h2, .HeaderImage h3 {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
 }
 
-.HeaderImage h2 span {
+.HeaderImage h2 span, .HeaderImage h3 span {
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: -1px;
