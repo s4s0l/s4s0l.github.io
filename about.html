@@ -16,13 +16,13 @@ layout: default
     {% if site.footer-links.skype %}
     <div class="contact_info">By skype:
         <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-        <div id="SkypeButton_Call_{{ site.footer-links.skype }}_1">
+        <div id="SkypeButton_Call_{{ site.footer-links.skype }}_1" style="display: inline-block;">
             <script type="text/javascript">
                 Skype.ui({
                     "name": "chat",
                     "element": "SkypeButton_Call_{{ site.footer-links.skype }}_1",
                     "participants": ["{{ site.footer-links.skype }}"],
-                    "imageSize": 40
+                    "imageSize": 32
                 });
             </script>
         </div>
