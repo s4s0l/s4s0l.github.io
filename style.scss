@@ -316,16 +316,32 @@ footer {
   bottom: -100%;
 }
 
-.HeaderImage h2, .HeaderImage h3 {
+.HeaderImage h2 {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
 }
 
-.HeaderImage h2 span, .HeaderImage h3 span {
+.HeaderImage h3 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.HeaderImage h2 span{
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.HeaderImage h3 span {
+  color: white;
+  font: bold 18px/45px Helvetica, Sans-Serif;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
