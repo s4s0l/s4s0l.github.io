@@ -25,9 +25,9 @@ footer-links:
   instagram:
   linkedin: s4s0l
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: true
   twitter: s4s0l
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/6608194/sasol
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
