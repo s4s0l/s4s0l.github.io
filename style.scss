@@ -154,6 +154,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #eeeeee;
 }
 
 .masthead {
@@ -249,7 +250,7 @@ nav {
   /* padding-bottom: 100px; */
   border-top:  1px solid #eee;
   margin-bottom: 30px;
-  background-color: #fbfbfb;
+  background-color: #eeeeee;
 }
 
 .posts > .post:last-child {
@@ -305,7 +306,6 @@ footer {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  margin: 10px;
   position: relative;
 }
 .HeaderImage img {
@@ -365,6 +365,7 @@ footer {
   width: 700px;
   height: 300px;
   overflow: hidden;
+  margin: 10px;
   position: relative;
 }
 .PostHeaderImage img {
