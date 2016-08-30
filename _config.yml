@@ -26,7 +26,7 @@ footer-links:
   instagram:
   linkedin: s4s0l
   pinterest:
-  rss: true
+  rss: feed://s4s0l.github.io/
   twitter: s4s0l
   stackoverflow: users/6608194/sasol
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -38,7 +38,7 @@ footer-links:
 disqus: s4s0l-github-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-83374812-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
